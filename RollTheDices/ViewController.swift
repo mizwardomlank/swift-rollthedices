@@ -24,10 +24,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func rollButtonTapped(_ sender: Any) {
-        let randomNumber = Int(arc4random_uniform(5)+1)
+        let randomNumber = Int(arc4random_uniform(6)+1)
         leftDiceView.image = UIImage(named: "dieWhite_border\(randomNumber)")
         
-        let randomNumber2 = Int(arc4random_uniform(5)+1)
+        let randomNumber2 = Int(arc4random_uniform(6)+1)
         rightDiceView.image = UIImage(named: "dieWhite_border\(randomNumber2)")
     }
     
