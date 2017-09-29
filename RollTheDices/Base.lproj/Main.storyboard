@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RollTheDices" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OdH-3m-Eeb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2M8-Vy-8kB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardBack_green1" translatesAutoresizingMaskIntoConstraints="NO" id="VIN-Ai-kIU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="x2E-27-wjZ">
+                                <rect key="frame" x="16" y="30" width="288" height="502"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roll The Dices!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3t9-xo-47a">
+                                        <rect key="frame" x="85" y="0.0" width="118.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="0mt-k8-d5s">
+                                        <rect key="frame" x="61" y="24.5" width="166" height="381"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dieWhite_border1" translatesAutoresizingMaskIntoConstraints="NO" id="rCb-ge-IXd">
+                                                <rect key="frame" x="0.0" y="156.5" width="68" height="68"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="rCb-ge-IXd" secondAttribute="height" multiplier="17:17" id="zbM-UK-t6k"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dieWhite_border1" translatesAutoresizingMaskIntoConstraints="NO" id="eMD-cK-oN2">
+                                                <rect key="frame" x="98" y="156.5" width="68" height="68"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="eMD-cK-oN2" secondAttribute="height" multiplier="17:17" id="lFA-rP-tas"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to roll!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFP-N5-sjF">
+                                        <rect key="frame" x="104" y="409.5" width="80" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYb-1r-aun">
+                                        <rect key="frame" x="110" y="434" width="68" height="68"/>
+                                        <state key="normal" image="chipRedWhite_border"/>
+                                        <connections>
+                                            <action selector="rollButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="69Y-HM-gOm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="x2E-27-wjZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5Ei-f1-zrt"/>
+                            <constraint firstItem="x2E-27-wjZ" firstAttribute="top" secondItem="OdH-3m-Eeb" secondAttribute="bottom" constant="10" id="ApU-ht-5K0"/>
+                            <constraint firstItem="VIN-Ai-kIU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BAD-kv-odq"/>
+                            <constraint firstAttribute="bottom" secondItem="VIN-Ai-kIU" secondAttribute="bottom" id="BEN-LZ-Q2v"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="x2E-27-wjZ" secondAttribute="trailing" id="Nhy-DX-tmO"/>
+                            <constraint firstAttribute="trailing" secondItem="VIN-Ai-kIU" secondAttribute="trailing" id="chP-EI-rgI"/>
+                            <constraint firstItem="2M8-Vy-8kB" firstAttribute="top" secondItem="x2E-27-wjZ" secondAttribute="bottom" constant="36" id="k2Y-1z-6au"/>
+                            <constraint firstItem="VIN-Ai-kIU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nvM-mz-JGH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftDiceView" destination="rCb-ge-IXd" id="ovf-8X-OWu"/>
+                        <outlet property="rightDiceView" destination="eMD-cK-oN2" id="0Ej-6j-nJr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.5" y="29.577464788732396"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cardBack_green1" width="123" height="173"/>
+        <image name="chipRedWhite_border" width="68" height="68"/>
+        <image name="dieWhite_border1" width="68" height="68"/>
+    </resources>
+</document>

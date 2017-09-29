@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5287F2731F7E75EA004898AF /* RoleTheDices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoleTheDices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5287F2731F7E75EA004898AF /* RollTheDices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollTheDices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5287F2761F7E75EA004898AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5287F2781F7E75EA004898AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5287F27B1F7E75EA004898AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		5287F26A1F7E75EA004898AF = {
 			isa = PBXGroup;
 			children = (
-				5287F2751F7E75EA004898AF /* RoleTheDices */,
+				5287F2751F7E75EA004898AF /* RollTheDices */,
 				5287F2741F7E75EA004898AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		5287F2741F7E75EA004898AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5287F2731F7E75EA004898AF /* RoleTheDices.app */,
+				5287F2731F7E75EA004898AF /* RollTheDices.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5287F2751F7E75EA004898AF /* RoleTheDices */ = {
+		5287F2751F7E75EA004898AF /* RollTheDices */ = {
 			isa = PBXGroup;
 			children = (
 				5287F2761F7E75EA004898AF /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				5287F27F1F7E75EA004898AF /* LaunchScreen.storyboard */,
 				5287F2821F7E75EA004898AF /* Info.plist */,
 			);
-			path = RoleTheDices;
+			path = RollTheDices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5287F2721F7E75EA004898AF /* RoleTheDices */ = {
+		5287F2721F7E75EA004898AF /* RollTheDices */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5287F2851F7E75EA004898AF /* Build configuration list for PBXNativeTarget "RoleTheDices" */;
+			buildConfigurationList = 5287F2851F7E75EA004898AF /* Build configuration list for PBXNativeTarget "RollTheDices" */;
 			buildPhases = (
 				5287F26F1F7E75EA004898AF /* Sources */,
 				5287F2701F7E75EA004898AF /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = RoleTheDices;
+			name = RollTheDices;
 			productName = RoleTheDices;
-			productReference = 5287F2731F7E75EA004898AF /* RoleTheDices.app */;
+			productReference = 5287F2731F7E75EA004898AF /* RollTheDices.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5287F26E1F7E75EA004898AF /* Build configuration list for PBXProject "RoleTheDices" */;
+			buildConfigurationList = 5287F26E1F7E75EA004898AF /* Build configuration list for PBXProject "RollTheDices" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5287F2721F7E75EA004898AF /* RoleTheDices */,
+				5287F2721F7E75EA004898AF /* RollTheDices */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RE622V9QWD;
-				INFOPLIST_FILE = RoleTheDices/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RollTheDices/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.develoka.RoleTheDices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RE622V9QWD;
-				INFOPLIST_FILE = RoleTheDices/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RollTheDices/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.develoka.RoleTheDices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5287F26E1F7E75EA004898AF /* Build configuration list for PBXProject "RoleTheDices" */ = {
+		5287F26E1F7E75EA004898AF /* Build configuration list for PBXProject "RollTheDices" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5287F2831F7E75EA004898AF /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5287F2851F7E75EA004898AF /* Build configuration list for PBXNativeTarget "RoleTheDices" */ = {
+		5287F2851F7E75EA004898AF /* Build configuration list for PBXNativeTarget "RollTheDices" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5287F2861F7E75EA004898AF /* Debug */,
